@@ -1,0 +1,502 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.center {
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.main{
+    background-image: url(Imagens/images/bg.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+.logo-menu {width: 50%;}
+.itens-menu {width: 50%; text-align: center;}
+.itens-menu a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.itens-menu a:hover{
+    border-bottom: 3px solid #FFDD33;
+}
+.itens-menu .contact-btn{
+    background-color: rgb(33, 33, 185);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.itens-menu .contact-btn:hover{
+    background-color: #0f0e67;
+    font-weight: bold;
+    border-bottom: none
+}
+
+.itens-menu-mobile{
+    display: none;
+    width: 50%;
+    text-align: right;
+}
+
+.itens-menu-mobile i{
+    color: white;
+    cursor: pointer;
+    font-size: 23px;
+    top: 0;
+    position: relative;
+}
+
+
+.mokcup {
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mokcup h1{
+    font-size: 50px;
+    margin: 0%;
+    font-weight: lighter;
+}
+
+.mokcup img{
+    width: 70%;
+    height: 70%;
+    max-width: 100%;
+}
+
+.clientes{
+    padding: 90px 0;
+}
+.clientes img{
+    width: calc(100%/5);
+}
+
+section.porque-nos{
+    padding: 40px 0;
+    background-color: #FBFCFE;
+    width: 100%;
+}
+section.porque-nos .center{
+    max-width: 1280px;
+}
+
+.porque-nos .center h1{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.porque-nos .center .subtitulo{
+    font-size: 14px;
+    color: #9c9c9c;
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.box-diferenciais {
+    box-shadow: 0px 20px 40px #2426721C;;
+    border-radius: 20px;
+    margin-right: 2%;
+    width: 31%;
+    padding: 30px 50px;
+}
+
+.box-diferenciais h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 150%;
+}
+.box-diferenciais p{
+    font-size: 13px;
+    max-width: 400%;
+    text-align: left;
+    font-size: 14px;
+    color: #9c9c9c;
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+.banner-contato{
+    background-image: url("Imagens/images/banner_meio.svg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0 80px 0;
+    min-height: 200px;
+    margin-top: 50px;
+    color: white;
+    display: block;
+}
+
+.banner-contato .center{
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+.banner-contato p{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+.banner-contato h1{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 20px 0;
+    margin-top: 40px;
+}
+.banner-contato a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(19, 19, 134);
+    background-color: #FFDD33;
+    padding: 15px 20px;
+    border-radius: 7px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.banner-contato a:hover{
+    background-color: rgb(255, 236, 95);
+    padding: 17px 22px;
+    font-size: 13px;
+    transition: 0.15s;
+}
+
+.beneficios-lista{
+    width: 50%;
+    padding: 50px;
+}
+
+.beneficios-lista h1{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.beneficios-lista p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.beneficios-lista span{
+    display: inline-block;
+    width: calc(100%-70px);
+
+}
+
+.beneficios-lista img{
+    width: 70px;
+    display: inline-block;
+}
+
+.beneficios-topicos{
+    margin-bottom: 40px;
+}
+.beneficios-lista a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color:#255AFF;
+    padding: 15px 20px;
+    border-radius: 7px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 200px;
+}
+.beneficios-lista a:hover{
+    background-color: #0c2368;
+}
+
+.imagem-mackbook {
+    width: 50%;
+}
+.imagem-mackbook img{
+    width: 100%;
+}
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding: 40px 0;
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+    
+.container-slider{
+    overflow:hidden;
+    padding: 40px 0;
+}
+
+.container-slider-single{
+    float: left;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+   
+   
+}
+.container-slider-single p{
+    width: 350x;
+    margin: 10px;
+}
+
+.container-slider-single img{
+    width: 90px;
+    height: 90px;
+    margin-top: 8px;
+}
+
+.container-slider-single h3{
+    margin: 10px;
+}
+
+.container-slider-single h5{
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.slick-slide{
+    margin-left: 27px;
+}
+.slick-list{
+    margin-left: -27px;
+}
+
+.formulario .center {
+    flex-direction: column;
+    margin-top: 80px;
+    text-align: center;
+}
+
+section.formulario h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+section .formulario form{
+    width: 100%;
+}
+
+.formulario input[type=text], .formulario input[type=email] {
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+    top: 4919px;
+    left: 554px;
+    width: 75%;
+    height: 50px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.formulario textarea {
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    opacity: 1;
+    top: 4919px;
+    left: 554px;
+    width: 75%;
+    height: 50px;
+    margin: 10px;
+    padding-left: 10px;
+    resize: vertical;
+}
+
+
+.formulario input[type=submit]{
+    top: 5438px;
+    left: 555px;
+    width: 75%;
+    height: 50px;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.formulario input[type=submit] :hover{
+    background: #0c2368;
+}
+
+footer{
+    background-color: #255AFF;
+    margin-top: 100px;
+    width: 100%;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .itens-menu{
+    margin-top: 15px;
+}
+
+footer .text-footer{
+    width: 50%;
+    color: #d8d8d8;
+    padding:  8px 0;
+}
+
+footer .center{
+    justify-content: space-between;
+}
+
+
+/***SLICK SLIDER***/
+
+.slick-dotted ul{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button :focus{
+    outline: 0;
+}
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background: #2151d7;
+    color:  #2151d7;
+}
+
+.slick-slide:focus {outline: none;}
+
+@media screen and (max-width: 760px){
+    .itens-menu-mobile{
+        display: block;
+    }
+
+    .menu-mobile{
+        display: none;
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top:80px;
+        background-color: white;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center ;
+    }
+
+    .show{
+        opacity: 1;
+        display: block;
+    }
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px solid #000;
+        padding: 8px 0;
+    }
+
+    .main .itens-menu{
+        display: none;
+    }
+
+    .box-diferenciais {
+        margin-right: 0;
+        width: 100%;
+    }
+    .diferenciais{
+        flex-wrap: wrap;
+    }
+    .porque-nos .center .subtitulo{ 
+        margin: 0 30px;
+        text-align: center;
+    }
+    .beneficios-lista, .imagem-mackbook{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .text-footer{
+        width: 100%;
+        text-align: center;
+    }
+    footer .itens-menu{
+        width: 100%;
+        text-align: center;
+    }
+    footer .itens-menu a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
