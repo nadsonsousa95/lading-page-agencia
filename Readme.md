@@ -1,4 +1,4 @@
-# Agência Bold — Aquele projeto que todo dev faz em algum curso 🎓
+# Agência Bold — 🎓
 
 Um belo dia, durante um curso de front-end, decidi criar esta landing page chamada **Agência Bold**: moderna, estilosa e cheia de atitude. Construída com **HTML**, **CSS**, **JavaScript**, complementada por **jQuery** e o famoso **slick.min.js**, essa página mostra por que às vezes a experiência do cliente (e o visual) é tudo.
 
